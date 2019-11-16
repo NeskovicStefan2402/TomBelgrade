@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="346dp"
+        android:layout_height="74dp"
+        android:layout_x="11dp"
+        android:layout_y="8dp"
+        android:background="#95FFFFFF"
+        android:onClick="konektujSe"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="15dp" />
+
+    <TextView
+        android:id="@+id/textViewOnOff"
+        android:layout_width="96dp"
+        android:layout_height="71dp"
+        android:layout_x="261dp"
+        android:layout_y="9dp"
+        android:gravity="center"
+        android:text="ON"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textViewIndex"
+        android:layout_width="96dp"
+        android:layout_height="71dp"
+        android:layout_x="16dp"
+        android:layout_y="7dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textViewValue"
+        android:layout_width="157dp"
+        android:layout_height="71dp"
+        android:layout_x="116dp"
+        android:layout_y="9dp"
+        android:gravity="center"
+        android:text="Majica"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="18dp" />
+</AbsoluteLayout>
