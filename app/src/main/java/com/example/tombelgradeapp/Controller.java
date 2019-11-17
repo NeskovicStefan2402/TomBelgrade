@@ -84,6 +84,7 @@ public class Controller extends AppCompatActivity {
         }
         return true;
     }
+
     public static LinkedList<String> getLista(){
         LinkedList<String> stvari=new LinkedList<>();
         stvari.add("Majica");

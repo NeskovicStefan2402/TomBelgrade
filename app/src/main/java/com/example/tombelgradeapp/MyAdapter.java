@@ -1,5 +1,6 @@
 package com.example.tombelgradeapp;
 
+import android.bluetooth.BluetoothDevice;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -69,6 +70,8 @@ public class MyAdapter extends BaseAdapter {
         viewHolder.txtONOFF.setText(onoff.get(position));
         return convertView;
     }
+
+
 
     private static class ViewHolder {
 

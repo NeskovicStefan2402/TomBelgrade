@@ -2,11 +2,9 @@ package com.example.tombelgradeapp;
 
 public class Uredjaj {
     Long id;
-    String uuid;
-    String rx;
-    String tx;
-    String name;
-    int conn;
+    String bleName;
+    String objectName;
+    int connected;
 
     public Long getId() {
         return id;
@@ -16,45 +14,27 @@ public class Uredjaj {
         this.id = id;
     }
 
-    public String getUuid() {
-        return uuid;
+    public String getBleName() {
+        return bleName;
     }
 
-    public void setUuid(String uuid) {
-        this.uuid = uuid;
+    public void setBleName(String bleName) {
+        this.bleName = bleName;
     }
 
-    public String getRx() {
-        return rx;
+    public String getObjectName() {
+        return objectName;
     }
 
-    public void setRx(String rx) {
-        this.rx = rx;
+    public void setObjectName(String objectName) {
+        this.objectName = objectName;
     }
 
-    public String getTx() {
-        return tx;
+    public int getConnected() {
+        return connected;
     }
 
-    public void setTx(String tx) {
-        this.tx = tx;
+    public void setConnected(int connected) {
+        this.connected = connected;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getConn() {
-        return conn;
-    }
-
-    public void setConn(int conn) {
-        this.conn = conn;
-    }
-
-
 }
